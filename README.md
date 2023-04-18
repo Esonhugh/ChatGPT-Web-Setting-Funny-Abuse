@@ -10,6 +10,7 @@ Play with ChatGPT-Web and found the HTML rendering in description settings.
 4. Editing the test.js if you need
 5. Using command `python crafted.py`
 6. Copy the generated string as setting in description
+7. (Optional) Click the Errored image to fast export the json based Chat History.
 
 ### Demo
 
